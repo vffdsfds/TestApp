@@ -1,0 +1,6 @@
+framework module Pods_EliteTestApp {
+  umbrella header "Pods-EliteTestApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
