@@ -16,9 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // 3.Create the keywindow
-        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.frame = UIScreen.main.bounds
         window?.backgroundColor  = UIColor.white
-        window?.rootViewController = HomeTableViewController()
+        let home = HomeViewController()
+        let nav = UINavigationController.init(rootViewController: home)
+        window?.rootViewController = nav
         window?.makeKeyAndVisible()
         
         return true

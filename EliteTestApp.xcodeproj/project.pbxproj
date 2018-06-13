@@ -9,9 +9,35 @@
 /* Begin PBXBuildFile section */
 		1829952720CB33C800099E2D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829952620CB33C800099E2D /* BaseViewController.swift */; };
 		1829952A20CB340500099E2D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829952820CB340500099E2D /* HomeViewController.swift */; };
-		1829953120CC81D800099E2D /* AdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829953020CC81D800099E2D /* AdTableViewCell.swift */; };
-		1829953320CC825900099E2D /* VisitWebsiteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829953220CC825900099E2D /* VisitWebsiteTableViewCell.swift */; };
 		1829953520CCD9FA00099E2D /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829953420CCD9FA00099E2D /* Header.swift */; };
+		182996E120CF75F200099E2D /* YYTextContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996AF20CF75F200099E2D /* YYTextContainerView.m */; };
+		182996E220CF75F200099E2D /* YYTextDebugOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996B120CF75F200099E2D /* YYTextDebugOption.m */; };
+		182996E320CF75F200099E2D /* YYTextEffectWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996B320CF75F200099E2D /* YYTextEffectWindow.m */; };
+		182996E420CF75F200099E2D /* YYTextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996B520CF75F200099E2D /* YYTextInput.m */; };
+		182996E520CF75F200099E2D /* YYTextKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996B720CF75F200099E2D /* YYTextKeyboardManager.m */; };
+		182996E620CF75F200099E2D /* YYTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996B920CF75F200099E2D /* YYTextLayout.m */; };
+		182996E720CF75F200099E2D /* YYTextLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996BB20CF75F200099E2D /* YYTextLine.m */; };
+		182996E820CF75F200099E2D /* YYTextMagnifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996BD20CF75F200099E2D /* YYTextMagnifier.m */; };
+		182996E920CF75F200099E2D /* YYTextSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996BF20CF75F200099E2D /* YYTextSelectionView.m */; };
+		182996EA20CF75F200099E2D /* YYTextArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996C220CF75F200099E2D /* YYTextArchiver.m */; };
+		182996EB20CF75F200099E2D /* YYTextAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996C420CF75F200099E2D /* YYTextAttribute.m */; };
+		182996EC20CF75F200099E2D /* YYTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996C620CF75F200099E2D /* YYTextParser.m */; };
+		182996ED20CF75F200099E2D /* YYTextRubyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996C820CF75F200099E2D /* YYTextRubyAnnotation.m */; };
+		182996EE20CF75F200099E2D /* YYTextRunDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996CA20CF75F200099E2D /* YYTextRunDelegate.m */; };
+		182996EF20CF75F200099E2D /* NSAttributedString+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996CD20CF75F200099E2D /* NSAttributedString+YYText.m */; };
+		182996F020CF75F200099E2D /* NSParagraphStyle+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996CF20CF75F200099E2D /* NSParagraphStyle+YYText.m */; };
+		182996F120CF75F200099E2D /* UIPasteboard+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996D120CF75F200099E2D /* UIPasteboard+YYText.m */; };
+		182996F220CF75F200099E2D /* UIView+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996D320CF75F200099E2D /* UIView+YYText.m */; };
+		182996F320CF75F200099E2D /* YYTextAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996D520CF75F200099E2D /* YYTextAsyncLayer.m */; };
+		182996F420CF75F200099E2D /* YYTextTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996D720CF75F200099E2D /* YYTextTransaction.m */; };
+		182996F520CF75F200099E2D /* YYTextUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996D920CF75F200099E2D /* YYTextUtilities.m */; };
+		182996F620CF75F200099E2D /* YYTextWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996DB20CF75F200099E2D /* YYTextWeakProxy.m */; };
+		182996F720CF75F200099E2D /* YYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996DD20CF75F200099E2D /* YYLabel.m */; };
+		182996F820CF75F200099E2D /* YYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182996E020CF75F200099E2D /* YYTextView.m */; };
+		182996FF20CF762500099E2D /* CycleLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182996FB20CF762400099E2D /* CycleLayout.swift */; };
+		1829970020CF762500099E2D /* CycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182996FC20CF762400099E2D /* CycleView.swift */; };
+		1829970120CF762500099E2D /* CycleViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182996FD20CF762400099E2D /* CycleViewCell.swift */; };
+		1829970220CF762500099E2D /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182996FE20CF762400099E2D /* PageControl.swift */; };
 		18FAD59A20CA2DFB00ECC6CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAD59920CA2DFB00ECC6CF /* AppDelegate.swift */; };
 		18FAD59F20CA2DFB00ECC6CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FAD59D20CA2DFB00ECC6CF /* Main.storyboard */; };
 		18FAD5A120CA2DFB00ECC6CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FAD5A020CA2DFB00ECC6CF /* Assets.xcassets */; };
@@ -19,6 +45,16 @@
 		18FAD5AF20CA2DFB00ECC6CF /* EliteTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAD5AE20CA2DFB00ECC6CF /* EliteTestAppTests.swift */; };
 		18FAD5BA20CA2DFB00ECC6CF /* EliteTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAD5B920CA2DFB00ECC6CF /* EliteTestAppUITests.swift */; };
 		4411067A8B0D0A827853BEDA /* Pods_EliteTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC183578288628C91B05D38 /* Pods_EliteTestApp.framework */; };
+		75078A0720CF6F2B00363F9B /* GroupOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75078A0620CF6F2B00363F9B /* GroupOrderCell.swift */; };
+		7531394C20CDB9B500A042A4 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7531394B20CDB9B500A042A4 /* BottomView.swift */; };
+		7531394E20CDCBFD00A042A4 /* ListOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7531394D20CDCBFD00A042A4 /* ListOrderCell.swift */; };
+		7531395020CDCC2600A042A4 /* WelcomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7531394F20CDCC2600A042A4 /* WelcomeCell.swift */; };
+		7531395220CDCC4F00A042A4 /* DetailOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7531395120CDCC4F00A042A4 /* DetailOrderCell.swift */; };
+		7531395420CDCCDD00A042A4 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7531395320CDCCDD00A042A4 /* BaseTableViewCell.swift */; };
+		7531395620CDD01100A042A4 /* OrderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7531395520CDD01100A042A4 /* OrderListViewController.swift */; };
+		7531395820CDD0C900A042A4 /* OrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7531395720CDD0C900A042A4 /* OrderDetailViewController.swift */; };
+		7531395B20CDF84000A042A4 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7531395A20CDF84000A042A4 /* OrderModel.swift */; };
+		7531395D20CDF95800A042A4 /* WeclomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7531395C20CDF95800A042A4 /* WeclomeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +78,61 @@
 		0EC183578288628C91B05D38 /* Pods_EliteTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EliteTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1829952620CB33C800099E2D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		1829952820CB340500099E2D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		1829953020CC81D800099E2D /* AdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdTableViewCell.swift; sourceTree = "<group>"; };
-		1829953220CC825900099E2D /* VisitWebsiteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitWebsiteTableViewCell.swift; sourceTree = "<group>"; };
 		1829953420CCD9FA00099E2D /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		182996AE20CF75F200099E2D /* YYTextContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextContainerView.h; sourceTree = "<group>"; };
+		182996AF20CF75F200099E2D /* YYTextContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextContainerView.m; sourceTree = "<group>"; };
+		182996B020CF75F200099E2D /* YYTextDebugOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextDebugOption.h; sourceTree = "<group>"; };
+		182996B120CF75F200099E2D /* YYTextDebugOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextDebugOption.m; sourceTree = "<group>"; };
+		182996B220CF75F200099E2D /* YYTextEffectWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextEffectWindow.h; sourceTree = "<group>"; };
+		182996B320CF75F200099E2D /* YYTextEffectWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextEffectWindow.m; sourceTree = "<group>"; };
+		182996B420CF75F200099E2D /* YYTextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextInput.h; sourceTree = "<group>"; };
+		182996B520CF75F200099E2D /* YYTextInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextInput.m; sourceTree = "<group>"; };
+		182996B620CF75F200099E2D /* YYTextKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextKeyboardManager.h; sourceTree = "<group>"; };
+		182996B720CF75F200099E2D /* YYTextKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextKeyboardManager.m; sourceTree = "<group>"; };
+		182996B820CF75F200099E2D /* YYTextLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextLayout.h; sourceTree = "<group>"; };
+		182996B920CF75F200099E2D /* YYTextLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextLayout.m; sourceTree = "<group>"; };
+		182996BA20CF75F200099E2D /* YYTextLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextLine.h; sourceTree = "<group>"; };
+		182996BB20CF75F200099E2D /* YYTextLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextLine.m; sourceTree = "<group>"; };
+		182996BC20CF75F200099E2D /* YYTextMagnifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextMagnifier.h; sourceTree = "<group>"; };
+		182996BD20CF75F200099E2D /* YYTextMagnifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextMagnifier.m; sourceTree = "<group>"; };
+		182996BE20CF75F200099E2D /* YYTextSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextSelectionView.h; sourceTree = "<group>"; };
+		182996BF20CF75F200099E2D /* YYTextSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextSelectionView.m; sourceTree = "<group>"; };
+		182996C120CF75F200099E2D /* YYTextArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextArchiver.h; sourceTree = "<group>"; };
+		182996C220CF75F200099E2D /* YYTextArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextArchiver.m; sourceTree = "<group>"; };
+		182996C320CF75F200099E2D /* YYTextAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextAttribute.h; sourceTree = "<group>"; };
+		182996C420CF75F200099E2D /* YYTextAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextAttribute.m; sourceTree = "<group>"; };
+		182996C520CF75F200099E2D /* YYTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextParser.h; sourceTree = "<group>"; };
+		182996C620CF75F200099E2D /* YYTextParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextParser.m; sourceTree = "<group>"; };
+		182996C720CF75F200099E2D /* YYTextRubyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextRubyAnnotation.h; sourceTree = "<group>"; };
+		182996C820CF75F200099E2D /* YYTextRubyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextRubyAnnotation.m; sourceTree = "<group>"; };
+		182996C920CF75F200099E2D /* YYTextRunDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextRunDelegate.h; sourceTree = "<group>"; };
+		182996CA20CF75F200099E2D /* YYTextRunDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextRunDelegate.m; sourceTree = "<group>"; };
+		182996CC20CF75F200099E2D /* NSAttributedString+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+YYText.h"; sourceTree = "<group>"; };
+		182996CD20CF75F200099E2D /* NSAttributedString+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+YYText.m"; sourceTree = "<group>"; };
+		182996CE20CF75F200099E2D /* NSParagraphStyle+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSParagraphStyle+YYText.h"; sourceTree = "<group>"; };
+		182996CF20CF75F200099E2D /* NSParagraphStyle+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSParagraphStyle+YYText.m"; sourceTree = "<group>"; };
+		182996D020CF75F200099E2D /* UIPasteboard+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPasteboard+YYText.h"; sourceTree = "<group>"; };
+		182996D120CF75F200099E2D /* UIPasteboard+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPasteboard+YYText.m"; sourceTree = "<group>"; };
+		182996D220CF75F200099E2D /* UIView+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYText.h"; sourceTree = "<group>"; };
+		182996D320CF75F200099E2D /* UIView+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYText.m"; sourceTree = "<group>"; };
+		182996D420CF75F200099E2D /* YYTextAsyncLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextAsyncLayer.h; sourceTree = "<group>"; };
+		182996D520CF75F200099E2D /* YYTextAsyncLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextAsyncLayer.m; sourceTree = "<group>"; };
+		182996D620CF75F200099E2D /* YYTextTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextTransaction.h; sourceTree = "<group>"; };
+		182996D720CF75F200099E2D /* YYTextTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextTransaction.m; sourceTree = "<group>"; };
+		182996D820CF75F200099E2D /* YYTextUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextUtilities.h; sourceTree = "<group>"; };
+		182996D920CF75F200099E2D /* YYTextUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextUtilities.m; sourceTree = "<group>"; };
+		182996DA20CF75F200099E2D /* YYTextWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextWeakProxy.h; sourceTree = "<group>"; };
+		182996DB20CF75F200099E2D /* YYTextWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextWeakProxy.m; sourceTree = "<group>"; };
+		182996DC20CF75F200099E2D /* YYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLabel.h; sourceTree = "<group>"; };
+		182996DD20CF75F200099E2D /* YYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLabel.m; sourceTree = "<group>"; };
+		182996DE20CF75F200099E2D /* YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYText.h; sourceTree = "<group>"; };
+		182996DF20CF75F200099E2D /* YYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextView.h; sourceTree = "<group>"; };
+		182996E020CF75F200099E2D /* YYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextView.m; sourceTree = "<group>"; };
+		182996F920CF760E00099E2D /* EliteTestApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EliteTestApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		182996FB20CF762400099E2D /* CycleLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleLayout.swift; sourceTree = "<group>"; };
+		182996FC20CF762400099E2D /* CycleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleView.swift; sourceTree = "<group>"; };
+		182996FD20CF762400099E2D /* CycleViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleViewCell.swift; sourceTree = "<group>"; };
+		182996FE20CF762400099E2D /* PageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		18FAD59620CA2DFB00ECC6CF /* EliteTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EliteTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FAD59920CA2DFB00ECC6CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18FAD59E20CA2DFB00ECC6CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,6 +146,16 @@
 		18FAD5B920CA2DFB00ECC6CF /* EliteTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EliteTestAppUITests.swift; sourceTree = "<group>"; };
 		18FAD5BB20CA2DFB00ECC6CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7082ECBFD6B87B15A28F7F18 /* Pods-EliteTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EliteTestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EliteTestApp/Pods-EliteTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		75078A0620CF6F2B00363F9B /* GroupOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupOrderCell.swift; sourceTree = "<group>"; };
+		7531394B20CDB9B500A042A4 /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		7531394D20CDCBFD00A042A4 /* ListOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrderCell.swift; sourceTree = "<group>"; };
+		7531394F20CDCC2600A042A4 /* WelcomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeCell.swift; sourceTree = "<group>"; };
+		7531395120CDCC4F00A042A4 /* DetailOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailOrderCell.swift; sourceTree = "<group>"; };
+		7531395320CDCCDD00A042A4 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		7531395520CDD01100A042A4 /* OrderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewController.swift; sourceTree = "<group>"; };
+		7531395720CDD0C900A042A4 /* OrderDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailViewController.swift; sourceTree = "<group>"; };
+		7531395A20CDF84000A042A4 /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		7531395C20CDF95800A042A4 /* WeclomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeclomeModel.swift; sourceTree = "<group>"; };
 		F605A4F062317CE0269501A5 /* Pods-EliteTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EliteTestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-EliteTestApp/Pods-EliteTestApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +190,8 @@
 			children = (
 				1829952620CB33C800099E2D /* BaseViewController.swift */,
 				1829952820CB340500099E2D /* HomeViewController.swift */,
+				7531395520CDD01100A042A4 /* OrderListViewController.swift */,
+				7531395720CDD0C900A042A4 /* OrderDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -99,7 +199,9 @@
 		1829952C20CB349900099E2D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				182996FA20CF762400099E2D /* CycleView */,
 				1829952D20CB3A6900099E2D /* TableViewCell */,
+				7531394B20CDB9B500A042A4 /* BottomView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -107,10 +209,120 @@
 		1829952D20CB3A6900099E2D /* TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				1829953020CC81D800099E2D /* AdTableViewCell.swift */,
-				1829953220CC825900099E2D /* VisitWebsiteTableViewCell.swift */,
+				7531394D20CDCBFD00A042A4 /* ListOrderCell.swift */,
+				7531394F20CDCC2600A042A4 /* WelcomeCell.swift */,
+				7531395120CDCC4F00A042A4 /* DetailOrderCell.swift */,
+				75078A0620CF6F2B00363F9B /* GroupOrderCell.swift */,
+				7531395320CDCCDD00A042A4 /* BaseTableViewCell.swift */,
 			);
 			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		1829969F20CF75F200099E2D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				182996F920CF760E00099E2D /* EliteTestApp-Bridging-Header.h */,
+				182996AC20CF75F200099E2D /* YYText */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		182996AC20CF75F200099E2D /* YYText */ = {
+			isa = PBXGroup;
+			children = (
+				182996AD20CF75F200099E2D /* Component */,
+				182996C020CF75F200099E2D /* String */,
+				182996CB20CF75F200099E2D /* Utility */,
+				182996DC20CF75F200099E2D /* YYLabel.h */,
+				182996DD20CF75F200099E2D /* YYLabel.m */,
+				182996DE20CF75F200099E2D /* YYText.h */,
+				182996DF20CF75F200099E2D /* YYTextView.h */,
+				182996E020CF75F200099E2D /* YYTextView.m */,
+			);
+			path = YYText;
+			sourceTree = "<group>";
+		};
+		182996AD20CF75F200099E2D /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				182996AE20CF75F200099E2D /* YYTextContainerView.h */,
+				182996AF20CF75F200099E2D /* YYTextContainerView.m */,
+				182996B020CF75F200099E2D /* YYTextDebugOption.h */,
+				182996B120CF75F200099E2D /* YYTextDebugOption.m */,
+				182996B220CF75F200099E2D /* YYTextEffectWindow.h */,
+				182996B320CF75F200099E2D /* YYTextEffectWindow.m */,
+				182996B420CF75F200099E2D /* YYTextInput.h */,
+				182996B520CF75F200099E2D /* YYTextInput.m */,
+				182996B620CF75F200099E2D /* YYTextKeyboardManager.h */,
+				182996B720CF75F200099E2D /* YYTextKeyboardManager.m */,
+				182996B820CF75F200099E2D /* YYTextLayout.h */,
+				182996B920CF75F200099E2D /* YYTextLayout.m */,
+				182996BA20CF75F200099E2D /* YYTextLine.h */,
+				182996BB20CF75F200099E2D /* YYTextLine.m */,
+				182996BC20CF75F200099E2D /* YYTextMagnifier.h */,
+				182996BD20CF75F200099E2D /* YYTextMagnifier.m */,
+				182996BE20CF75F200099E2D /* YYTextSelectionView.h */,
+				182996BF20CF75F200099E2D /* YYTextSelectionView.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		182996C020CF75F200099E2D /* String */ = {
+			isa = PBXGroup;
+			children = (
+				182996C120CF75F200099E2D /* YYTextArchiver.h */,
+				182996C220CF75F200099E2D /* YYTextArchiver.m */,
+				182996C320CF75F200099E2D /* YYTextAttribute.h */,
+				182996C420CF75F200099E2D /* YYTextAttribute.m */,
+				182996C520CF75F200099E2D /* YYTextParser.h */,
+				182996C620CF75F200099E2D /* YYTextParser.m */,
+				182996C720CF75F200099E2D /* YYTextRubyAnnotation.h */,
+				182996C820CF75F200099E2D /* YYTextRubyAnnotation.m */,
+				182996C920CF75F200099E2D /* YYTextRunDelegate.h */,
+				182996CA20CF75F200099E2D /* YYTextRunDelegate.m */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		182996CB20CF75F200099E2D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				182996CC20CF75F200099E2D /* NSAttributedString+YYText.h */,
+				182996CD20CF75F200099E2D /* NSAttributedString+YYText.m */,
+				182996CE20CF75F200099E2D /* NSParagraphStyle+YYText.h */,
+				182996CF20CF75F200099E2D /* NSParagraphStyle+YYText.m */,
+				182996D020CF75F200099E2D /* UIPasteboard+YYText.h */,
+				182996D120CF75F200099E2D /* UIPasteboard+YYText.m */,
+				182996D220CF75F200099E2D /* UIView+YYText.h */,
+				182996D320CF75F200099E2D /* UIView+YYText.m */,
+				182996D420CF75F200099E2D /* YYTextAsyncLayer.h */,
+				182996D520CF75F200099E2D /* YYTextAsyncLayer.m */,
+				182996D620CF75F200099E2D /* YYTextTransaction.h */,
+				182996D720CF75F200099E2D /* YYTextTransaction.m */,
+				182996D820CF75F200099E2D /* YYTextUtilities.h */,
+				182996D920CF75F200099E2D /* YYTextUtilities.m */,
+				182996DA20CF75F200099E2D /* YYTextWeakProxy.h */,
+				182996DB20CF75F200099E2D /* YYTextWeakProxy.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		182996FA20CF762400099E2D /* CycleView */ = {
+			isa = PBXGroup;
+			children = (
+				182996FB20CF762400099E2D /* CycleLayout.swift */,
+				182996FC20CF762400099E2D /* CycleView.swift */,
+				182996FD20CF762400099E2D /* CycleViewCell.swift */,
+				182996FE20CF762400099E2D /* PageControl.swift */,
+			);
+			path = CycleView;
+			sourceTree = "<group>";
+		};
+		182997AB20D0707300099E2D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		18FAD58D20CA2DFB00ECC6CF = {
@@ -138,13 +350,16 @@
 		18FAD59820CA2DFB00ECC6CF /* EliteTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				1829953420CCD9FA00099E2D /* Header.swift */,
+				182997AB20D0707300099E2D /* Resource */,
+				1829969F20CF75F200099E2D /* Tools */,
+				7531395920CDD24500A042A4 /* Model */,
 				1829952C20CB349900099E2D /* View */,
 				1829952520CB332100099E2D /* Controller */,
 				18FAD59920CA2DFB00ECC6CF /* AppDelegate.swift */,
 				18FAD59D20CA2DFB00ECC6CF /* Main.storyboard */,
 				18FAD5A020CA2DFB00ECC6CF /* Assets.xcassets */,
 				18FAD5A220CA2DFB00ECC6CF /* LaunchScreen.storyboard */,
+				1829953420CCD9FA00099E2D /* Header.swift */,
 				18FAD5A520CA2DFB00ECC6CF /* Info.plist */,
 			);
 			path = EliteTestApp;
@@ -175,6 +390,15 @@
 				F605A4F062317CE0269501A5 /* Pods-EliteTestApp.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		7531395920CDD24500A042A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7531395A20CDF84000A042A4 /* OrderModel.swift */,
+				7531395C20CDF95800A042A4 /* WeclomeModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		CDE47AB323B2D0040209E337 /* Frameworks */ = {
@@ -326,13 +550,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-EliteTestApp/Pods-EliteTestApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,12 +604,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1829953120CC81D800099E2D /* AdTableViewCell.swift in Sources */,
-				1829953320CC825900099E2D /* VisitWebsiteTableViewCell.swift in Sources */,
+				7531395D20CDF95800A042A4 /* WeclomeModel.swift in Sources */,
+				7531395020CDCC2600A042A4 /* WelcomeCell.swift in Sources */,
 				1829952A20CB340500099E2D /* HomeViewController.swift in Sources */,
+				182996E620CF75F200099E2D /* YYTextLayout.m in Sources */,
+				182996E820CF75F200099E2D /* YYTextMagnifier.m in Sources */,
+				182996E220CF75F200099E2D /* YYTextDebugOption.m in Sources */,
 				1829952720CB33C800099E2D /* BaseViewController.swift in Sources */,
+				1829970020CF762500099E2D /* CycleView.swift in Sources */,
+				182996E120CF75F200099E2D /* YYTextContainerView.m in Sources */,
+				182996EE20CF75F200099E2D /* YYTextRunDelegate.m in Sources */,
+				182996EA20CF75F200099E2D /* YYTextArchiver.m in Sources */,
+				7531395420CDCCDD00A042A4 /* BaseTableViewCell.swift in Sources */,
+				7531394C20CDB9B500A042A4 /* BottomView.swift in Sources */,
+				182996F020CF75F200099E2D /* NSParagraphStyle+YYText.m in Sources */,
+				182996E420CF75F200099E2D /* YYTextInput.m in Sources */,
+				182996F520CF75F200099E2D /* YYTextUtilities.m in Sources */,
+				7531395620CDD01100A042A4 /* OrderListViewController.swift in Sources */,
 				1829953520CCD9FA00099E2D /* Header.swift in Sources */,
+				1829970120CF762500099E2D /* CycleViewCell.swift in Sources */,
+				182996EF20CF75F200099E2D /* NSAttributedString+YYText.m in Sources */,
+				182996E320CF75F200099E2D /* YYTextEffectWindow.m in Sources */,
+				182996F220CF75F200099E2D /* UIView+YYText.m in Sources */,
+				182996E520CF75F200099E2D /* YYTextKeyboardManager.m in Sources */,
+				1829970220CF762500099E2D /* PageControl.swift in Sources */,
+				182996ED20CF75F200099E2D /* YYTextRubyAnnotation.m in Sources */,
+				182996F120CF75F200099E2D /* UIPasteboard+YYText.m in Sources */,
+				182996EB20CF75F200099E2D /* YYTextAttribute.m in Sources */,
+				182996F620CF75F200099E2D /* YYTextWeakProxy.m in Sources */,
+				182996E920CF75F200099E2D /* YYTextSelectionView.m in Sources */,
+				182996EC20CF75F200099E2D /* YYTextParser.m in Sources */,
+				182996F820CF75F200099E2D /* YYTextView.m in Sources */,
+				7531395B20CDF84000A042A4 /* OrderModel.swift in Sources */,
+				7531395820CDD0C900A042A4 /* OrderDetailViewController.swift in Sources */,
+				7531394E20CDCBFD00A042A4 /* ListOrderCell.swift in Sources */,
+				182996F420CF75F200099E2D /* YYTextTransaction.m in Sources */,
 				18FAD59A20CA2DFB00ECC6CF /* AppDelegate.swift in Sources */,
+				182996FF20CF762500099E2D /* CycleLayout.swift in Sources */,
+				7531395220CDCC4F00A042A4 /* DetailOrderCell.swift in Sources */,
+				182996F720CF75F200099E2D /* YYLabel.m in Sources */,
+				182996F320CF75F200099E2D /* YYTextAsyncLayer.m in Sources */,
+				182996E720CF75F200099E2D /* YYTextLine.m in Sources */,
+				75078A0720CF6F2B00363F9B /* GroupOrderCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,6 +821,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Ariel.EliteTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "EliteTestApp/Tools/EliteTestApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -580,6 +841,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Ariel.EliteTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "EliteTestApp/Tools/EliteTestApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
